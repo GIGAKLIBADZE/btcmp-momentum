@@ -1,11 +1,11 @@
 import Header from "../layouts/Header";
-import { Outlet } from "react-router-dom";
+import Tasks from "../components/Tasks";
 
 const Home: React.FC = () => {
   return (
     <div>
       <Header />
-      <Outlet />
+      <Tasks />
     </div>
   );
 };
