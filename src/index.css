@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Fira GO", sans-serif;
+}
+
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding: 3.1rem 12rem 15.2rem;
+}
