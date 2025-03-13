@@ -19,3 +19,9 @@ body {
   overflow-x: hidden;
   padding: 3.1rem 12rem 15.2rem;
 }
+
+@layer components {
+  .filter-container {
+    @apply flex items-center gap-[1.3rem]
+  }
+}

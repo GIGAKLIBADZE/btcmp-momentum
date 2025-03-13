@@ -1,11 +1,8 @@
-import Header from "../layouts/Header";
-import Tasks from "../components/Tasks";
-
+import TitleAndFilter from "../components/TitleAndFilter";
 const Home: React.FC = () => {
   return (
     <div>
-      <Header />
-      <Tasks />
+      <TitleAndFilter />
     </div>
   );
 };
