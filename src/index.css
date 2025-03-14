@@ -20,6 +20,34 @@ body {
   padding: 3.1rem 12rem 15.2rem;
 }
 
+.custom-check {
+  width: 2.22rem;
+  height: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  border: 1.5px solid #212529;
+  background-color: white;
+  appearance: none;
+}
+
+.custom-check:checked {
+  background-color: white;
+  position: relative;
+}
+
+.custom-check:checked::after {
+  content: "✔";
+  color: #212529;
+  font-size: 1.6rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 @layer components {
   .filter-container {
     @apply flex items-center gap-[1.3rem]
@@ -27,6 +55,10 @@ body {
 
   .task-type-title {
     @apply flex items-center justify-center h-[5.4rem] rounded-[10px] text-[2rem] font-medium leading-normal text-white
+  }
+
+  .departament-filter-text {
+    @apply text-[1.6rem] font-normal leading-normal text-[#212529] ml-[1.5rem]
   }
   
 }
