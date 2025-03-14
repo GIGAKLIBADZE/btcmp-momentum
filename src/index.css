@@ -24,4 +24,9 @@ body {
   .filter-container {
     @apply flex items-center gap-[1.3rem]
   }
+
+  .task-type-title {
+    @apply flex items-center justify-center h-[5.4rem] rounded-[10px] text-[2rem] font-medium leading-normal text-white
+  }
+  
 }
